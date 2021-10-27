@@ -44,7 +44,6 @@
   </div>
   <div v-else>Loading</div>
 </template>
-
 <script>
 import JsonCSV from 'vue-json-csv'
 import Footer from '@/components/Footer'
