@@ -53,4 +53,7 @@ export default {
       '~assets/scss/main.scss'
     ]
   },
+  generate: {
+    fallback: true
+  }
 }
