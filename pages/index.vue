@@ -95,7 +95,7 @@ export default {
     },
     async getUserData() {
       const vim = this;
-      await this.$axios.get("https://api.freegeoip.app/json/?apikey=" + process.env.FREEGEOIP_KEY).then((result) => {
+      await this.$axios.get("https://api.freegeoip.app/json/?apikey=27d088a0-365c-11ec-bd89-a3c9410a18ce").then((result) => {
         console.log(" result : ", result);
         const countryName = result.data.country_name;
         if (countryName) {
